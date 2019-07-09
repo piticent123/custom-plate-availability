@@ -90,4 +90,4 @@ typings/
 # Output of 'npm pack'
 *.tgz
 
-lib/
+/lib

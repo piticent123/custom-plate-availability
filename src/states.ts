@@ -4,6 +4,7 @@ import cheerio from 'cheerio';
 export interface PlateAvailabilityResponse {
     available: boolean;
     preview?: string;
+    state?: string;
 }
 
 export async function ohio(plate: string): Promise<PlateAvailabilityResponse> {
