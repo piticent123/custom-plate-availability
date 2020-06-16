@@ -91,3 +91,4 @@ typings/
 *.tgz
 
 /lib
+package-lock.json
